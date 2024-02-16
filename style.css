@@ -357,7 +357,7 @@ img {
   }
 
   .main-menu .current_page_item a {
-    color: var(--hover-green);
+    color: var(--orange);
   }
 
   .main-menu a {
