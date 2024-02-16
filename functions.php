@@ -1,15 +1,10 @@
 <?php
 
-// tn: The Next 150
-
 function tn_setup() {
   // Custom logo
   add_theme_support( 'custom-logo' );
-
-
   //Images
   add_theme_support('post-thumbnails');
-
   // SEO 
   add_theme_support('title-tag');
 }
@@ -40,18 +35,3 @@ function tn_scripts_styles() {
 
 add_action("wp_enqueue_scripts", "tn_scripts_styles");
 
-function agregar_script_filtro_categoria() {
-  ?>
-  <script>
-      jQuery(document).ready(function($) {
-          $('.filtro-categoria').on('click', function() {
-            var categoria = $(this).data('categoria');
-
-              $('.post').hide(); // Oculta todos los posts
-              $('.post[data-categoria="' + categoria + '"]').show(); // Muestra solo los posts de la categoría seleccionada
-          });
-      });
-  </script>
-  <?php
-}
-add_action('wp_footer', 'agregar_script_filtro_categoria');
