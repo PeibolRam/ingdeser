@@ -42,4 +42,4 @@
   <?php the_content(); ?>
 </div>
 
-<? get_footer(); ?>
+<?php get_footer(); ?>
