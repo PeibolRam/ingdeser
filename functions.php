@@ -1,8 +1,8 @@
 <?php
 
-// tn: The Next 150
+// ing
 
-function tn_setup() {
+function ing_setup() {
   // Custom logo
   add_theme_support( 'custom-logo' );
 
@@ -13,33 +13,33 @@ function tn_setup() {
   add_theme_support('title-tag');
 }
 
-add_action("after_setup_theme", "tn_setup");
+add_action("after_setup_theme", "ing_setup");
 
-function tn_menus() {
+function ing_menus() {
   register_nav_menus(array(
     'main-menu' => __('Main menu', 'ingdeser'),
     'footer-menu' => __('Footer menu','ingdeser')
   ));
 }
 
-add_action("init", "tn_menus");
+add_action("init", "ing_menus");
 
 function cargar_jquery() {
   wp_enqueue_script('jquery');
 }
 add_action('wp_enqueue_scripts', 'cargar_jquery');
 
-function tn_scripts_styles() {
+function ing_scripts_styles() {
   wp_enqueue_style('normalize', 'https://necolas.github.io/normalize.css/8.0.1/normalize.css',array(), '8.0.1');
   wp_enqueue_style('style',  get_stylesheet_uri(), array('normalize'), '1.0.0'); 
   wp_enqueue_script( 'scripts', get_template_directory_uri() . '/js/scripts.js' , array(), '1.0',  false );
 
 }
 
-add_action("wp_enqueue_scripts", "tn_scripts_styles");
+add_action("wp_enqueue_scripts", "ing_scripts_styles");
 
-function tn_gallery() {
- echo '<script type="text/javascript">
+function ing_gallery() {
+  echo '<script type="text/javascript">
   document.addEventListener("DOMContentLoaded", () => { 
     const slider = document.querySelector(".slider-gallery");
     const dotsContainer = document.querySelector(".slider-dots-gallery");
@@ -75,7 +75,7 @@ function tn_gallery() {
   </script>';
 }
 
-add_action("wp_enqueue_scripts", "tn_gallery");
+add_action("wp_enqueue_scripts", "ing_gallery");
 
 
 function wpb_hook_javascript_footer() {

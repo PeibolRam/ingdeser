@@ -86,3 +86,6 @@ slides.forEach(() => {
 updateSlider();
 
 slides[0].classList.add('active');
+
+
+console.log('hola ')
