@@ -6,7 +6,7 @@
         <?php 
             $categoria = get_queried_object();
         ?>
-        <h2 class="text-primary text-center">Category: <?php echo $categoria->name; ?></h2>
+        <h2 class="text-primary text-center"><?php echo $categoria->name; ?></h2>
         <ul class="listado-grid">
             <?php
                 while( have_posts() ) { 
