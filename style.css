@@ -1877,7 +1877,7 @@ contact PAGE
 
 .card-link {
   color: var(--orange);
-  text-transform: uppercase;
+  text-transform: capitalize;
 
 }
 

@@ -20,7 +20,6 @@
               $category_link = get_category_link( $item_subcat->term_id );
 
               echo '<a href="'.$category_link.'">'.$item_subcat->name.'</a>';
-              echo '<div><a href="'.$category_link.'">'.$item_subcat->description.'</a></div>';
             }
             echo "</div>";
 
