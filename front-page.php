@@ -24,15 +24,15 @@
     <div class="first-home-icons ">
       <div class=" content">
         <div class="first-home-content">
-          <div class="first-home-txt" data-aos="fade-up" data-aos-delay="400">
+          <div class="first-home-txt" >
             <img src="http://www.ingdeser.com/wp-content/uploads/2024/02/Tranquilidad.svg" alt="Tranquilidad" >
             <p><span style="font-weight:bold;color:#D25F15;">Tranquilidad: </span>Evitando que arriesgue recursos económicos, de tiempo y operación a través de un servicio de expertos calificados, que resuelven de forma rápida, eficiente y a menor costo.</p>
           </div>
-          <div class="first-home-txt" data-aos="fade-up" data-aos-delay="300">
+          <div class="first-home-txt">
             <img src="http://www.ingdeser.com/wp-content/uploads/2024/02/Comodidad.svg" alt="Comodidad" >
             <p><span style="font-weight:bold;color:#D25F15;">Comodidad: </span>Teniendo un proveedor que está siempre disponible, dando seguimiento continuo y acompañando a su empresa para facilitar su operación.</p>
           </div>
-          <div class="first-home-txt" data-aos="fade-up" data-aos-delay="200">
+          <div class="first-home-txt">
             <img src="http://www.ingdeser.com/wp-content/uploads/2024/02/Atencion.svg" alt="Atención">
             <p><span style="font-weight:bold;color:#D25F15;">Atención: </span>Un trato cercano, íntegro y comprometido siempre, en todos los acuerdo convenidos.</p>
           </div>
