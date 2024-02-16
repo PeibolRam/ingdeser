@@ -14,6 +14,7 @@ add_action("after_setup_theme", "tn_setup");
 function tn_menus() {
   register_nav_menus(array(
     'main-menu' => __('Main menu', 'ingdeser'),
+    'main-menu-mobile' => __('Main menu mobile', 'ingdeser'),
     'footer-menu' => __('Footer menu','ingdeser')
   ));
 }

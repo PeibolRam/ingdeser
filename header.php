@@ -51,7 +51,7 @@
           </div>
           <?php
             $args = array(
-              'theme_location' => 'main-menu',
+              'theme_location' => 'main-menu-mobile',
               'container' => 'nav',
               'container_class' => 'hamburger-menu-container'
             );

@@ -462,7 +462,7 @@ img {
 }
 
 .menu-expanded ul li a {
-  color: var(--blue);
+  color: var(--orange);
   margin: 1em auto;
 }
 
@@ -499,7 +499,7 @@ img {
 .line {
   display: block;
   width: 30px;
-  background: var(--blue);
+  background: var(--black);
   height: 2px;
   margin: 5px 5px;
   transition: all 0.4s ease;
@@ -2062,7 +2062,7 @@ contact PAGE
 /****** POST ******/
 
 .post-content {
-  margin: 2em auto;
+  margin: 150px auto 100px;
   width: 90%;
 }
 

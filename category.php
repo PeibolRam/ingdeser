@@ -7,10 +7,11 @@
             $categoria = get_queried_object();
         ?>
         <h2 class="section-title text-center"><?php echo $categoria->name; ?></h2>
-        <h3 class="section-subtitle">Subcategorias:</h3>
+        
         <?php
           $list_subcat = array();
           if ( !empty($cat) ) $list_subcat = get_categories( ['hide_empty' => false, 'parent' => $cat] );
+          echo '<h3 class="section-subtitle">Subcategorias:</h3>';
 
           if ( count($list_subcat)):
 

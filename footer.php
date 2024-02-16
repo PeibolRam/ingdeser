@@ -6,7 +6,9 @@
               <img class="logo-img" src="<?php echo get_template_directory_uri()?>/img/isotipo.png" alt="Logo">
             </a>      
           </div>
-          <?php
+        </div>
+        <div class="footer-conect">
+        <?php
             $args = array(
               'theme_location' => 'footer-menu',
               'container' => 'nav',
@@ -14,10 +16,6 @@
             );
             wp_nav_menu($args);
           ?>
-        </div>
-        <div class="footer-conect">
-          <a href="#">Nosotros</a>
-          <a href="#">Contacto</a>
         </div>
       </div>
       <div class="footer-cr text-center">
