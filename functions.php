@@ -6,7 +6,6 @@ function tn_setup() {
   // Custom logo
   add_theme_support( 'custom-logo' );
 
-
   //Images
   add_theme_support('post-thumbnails');
 
@@ -18,8 +17,8 @@ add_action("after_setup_theme", "tn_setup");
 
 function tn_menus() {
   register_nav_menus(array(
-    'main-menu' => __('Main menu', 'thenext150'),
-    'footer-menu' => __('Footer menu','thenext150')
+    'main-menu' => __('Main menu', 'ingdeser'),
+    'footer-menu' => __('Footer menu','ingdeser')
   ));
 }
 
