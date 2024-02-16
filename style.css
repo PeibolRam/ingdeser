@@ -281,6 +281,8 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 0 auto;
+  width: min(80%, 120rem);
 }
 
 .logo-img {
@@ -295,6 +297,7 @@ img {
     flex-direction: row;
     justify-content: space-between;
     height: 120px;
+
   }
 
   .navbar-blue {
@@ -318,7 +321,7 @@ img {
 
 .main-menu a {
   font-family: var(--main-font);
-  color: var(--blue);
+  color: var(--title-gray);
   font-weight: bold;
   display: block;
   text-align: center;
@@ -327,44 +330,12 @@ img {
 }
 
 .navbar-blue .main-menu a {
-  color: var(--white);
+  color: var(--title-gray);
   font-weight: 500;
   display: block;
   text-align: center;
   font-size: 1.3rem;
   padding: .5rem 2rem;
-}
-
-.sub-menu {
-  display: none;
-  visibility: hidden;
-  position: absolute;
-  bottom: -100%;
-}
-
-.sub-menu a {
-  background-color: transparent;
-  color: #000;
-}
-
-.menu-item:last-child,
-.trp-language-switcher-container {
-  position: relative;
-}
-
-.trp-language-switcher-container:hover .sub-menu {
-  opacity: 1;
-  visibility: visible;
-}
-
-.sub-menu:hover {
-  opacity: 1;
-  visibility: visible;
-}
-
-.sub-menu li {
-  display: flex;
-  flex-direction: row;
 }
 
 @media (min-width: 768px) {
@@ -382,6 +353,7 @@ img {
     justify-content: center;
     align-items: center;
     text-align: center;
+    position: relative;
   }
 
   .main-menu .current_page_item a {
@@ -401,7 +373,7 @@ img {
     display: block;
     width: 50%;
     height: 2px;
-    background-color: var(--green);
+    background-color: var(--orange);
     z-index: -1;
     transform: scaleX(0);
     transition: transform .6s;
@@ -423,6 +395,36 @@ img {
 
   .main-menu a:hover::after {
     transform: scaleX(1);
+  }
+
+  .sub-menu {
+    display: none;
+    visibility: hidden;
+    position: absolute;
+    top: 100%;
+    min-width: 200px;
+  }
+
+  .sub-menu a {
+    background-color: transparent;
+    color: #000;
+    font-size: 1.2rem;
+  }
+
+  .sub-menu:hover {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .sub-menu li {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-menu li:hover>.sub-menu {
+    display: block;
+    visibility: visible;
+    background: #ebebeb90;
   }
 }
 

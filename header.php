@@ -9,7 +9,7 @@
   </head>
   <body>
   <header class="header-blue desktop" id="navbar-blue">
-    <div class="content navbar-blue">
+    <div class="navbar-blue">
       <div class="logo">
         <a href="/">
           <img class="logo-img" src="<?php echo get_template_directory_uri()?>/img/isotipo.png" alt="Logo">
@@ -26,7 +26,7 @@
       </div>
   </header>
     <header class="header" id="navbar">
-      <div class="content navbar desktop">
+      <div class="navbar desktop">
         <div class="logo">
           <?php the_custom_logo(); ?>
         </div>
