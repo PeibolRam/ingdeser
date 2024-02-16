@@ -8,15 +8,5 @@
 
         </div>
 
-        <div class="meta-info">
-            
-            <div class="categoria">
-                <p class="meta">
-                    <span>Categoria: </span>
-                </p>
-                <?php the_category(); ?>
-                
-            </div>
-        </div>
 <?php endwhile;
     
