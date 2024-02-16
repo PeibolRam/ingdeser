@@ -18,21 +18,6 @@
         <div class="footer-conect">
           <a href="#">Nosotros</a>
           <a href="#">Contacto</a>
-          <!--<div class="footer-social">
-            <p>Siguenos:</p>
-            <ul>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_template_directory_uri()?>/img/linkedin.png" alt="linkedin">
-                </a>
-              </li>
-              <li>
-                <a href="#">
-                  <img src="<?php echo get_template_directory_uri()?>/img/twitter.png" alt="twitter">
-                </a>
-              </li>
-            </ul>
-          </div> -->
         </div>
       </div>
       <div class="footer-cr text-center">

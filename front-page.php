@@ -78,5 +78,4 @@
     </div>
   </section>
 
-
 <? get_footer(); ?>
