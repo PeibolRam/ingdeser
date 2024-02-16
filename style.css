@@ -1844,26 +1844,9 @@ contact PAGE
 
 /** Cards **/
 .listado-grid {
-  margin-top: 4rem;
   display: grid;
   gap: 2rem;
 
-}
-
-.listado-grid-home {
-  margin-top: 4rem;
-  display: grid;
-  gap: 2rem;
-}
-
-@media (min-width:768px) {
-  .listado-grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-  .listado-grid-home {
-    grid-template-columns: repeat(3, 1fr);
-  }
 }
 
 .card {
@@ -1872,25 +1855,30 @@ contact PAGE
   overflow: hidden;
 }
 
-.card-link {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
+/** Categorias en Cards **/
+.subcat {
+  display: flex;
+  flex-direction: column;
 }
 
-/* .card:first-child {
-  grid-area: 1 / 1 / 2 / 3;
-} */
+.subcat a {
+  color: var(--bg-btn);
+  margin-bottom: 1em;
+  text-transform: capitalize;
+}
 
-/** Categorias en Cards **/
 .card .post-categories {
   position: absolute;
   top: 2rem;
   left: 2rem;
   display: flex;
   gap: 2rem;
+}
+
+.card-link {
+  color: var(--orange);
+  text-transform: uppercase;
+
 }
 
 .card .post-categories li {
