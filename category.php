@@ -2,7 +2,7 @@
     get_header();
 ?>
 
-    <main class="section content first-section">
+    <main class="section content content-mob first-section">
         <?php 
             $categoria = get_queried_object();
         ?>
