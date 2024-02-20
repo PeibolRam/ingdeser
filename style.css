@@ -144,6 +144,10 @@ img {
   padding: 5rem 0;
 }
 
+.orange {
+  color: var(--orange);
+}
+
 .btn {
   color: var(--white);
   background-color: var(--bg-btn);
@@ -605,10 +609,14 @@ img {
   margin: 1em auto;
 }
 
+.footer-cr {
+  background-color: var(--black);
+  color: var(--bg-gray-section);
+}
+
 .footer-cr p {
   font-size: 1.2rem;
   font-weight: 500;
-  color: var(--black);
 }
 
 @media (max-width: 767px) {
@@ -713,6 +721,14 @@ HOME PAGE
 .fisrt-home p,
 .press-home p {
   color: var(--menu-gray);
+}
+
+.press-home p {
+  font-size: 1.4rem;
+}
+
+.press-home h2 {
+  font-size: 2.4rem;
 }
 
 .first-home-content {
@@ -838,11 +854,6 @@ HOME PAGE
   .objetive-home-content h1,
   .objetive-home-content p {
     width: 50%;
-  }
-
-  .objetive-home-content p {
-    width: 50%;
-    margin: 1em 0;
   }
 }
 

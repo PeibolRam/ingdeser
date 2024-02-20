@@ -79,4 +79,16 @@
     </div>
   </section>
 
+  <section class="section">
+    <div class="content press-home text-center">
+      <p>¿Fallas en tu equipo de laboratorio?</p>
+      <p>¿Pérdidas de tiempo y dinero?</p>
+      <p>¿Riesgos constantes de averías?</p>
+      <p>¿Mala atención de las empresas de mantenimiento?</p>
+
+      <h2><span class="orange font-bigger">Basta de problemas</span><br>tenemos una propuesta valiosa para tu empresa</h2>
+
+    </div>
+  </section>
+
 <?php get_footer(); ?>
