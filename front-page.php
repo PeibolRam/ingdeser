@@ -2,8 +2,6 @@
   get_header(); 
 ?>
 
-<?php the_content(); ?>
-
   <section class="hero-home">
 
     <div class="objetive-home-container parallax" style="background-image: url('https://www.ingdeser.com/wp-content/uploads/2024/02/hero-home.jpg');">
