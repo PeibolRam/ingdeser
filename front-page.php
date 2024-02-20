@@ -7,11 +7,11 @@
   <section class="hero-home">
 
     <div class="objetive-home-container parallax" style="background-image: url('https://www.ingdeser.com/wp-content/uploads/2024/02/hero-home.jpg');">
-      <div class="overlay">
+      <div class="overlay overlay-orange">
         <div class="content objetive-home-content">
-          <h1>Más allá del buen servicio</h1>
-          <p>Somo especialistas en mantenimiento, calibración y calificación de equipos de laboratorio.</p>
-          <p>Con un plnatilla de expertos con <strong>más de 10 años de experiencia</strong> generando excelentes resultados.</p>
+          <h1><span class="font-bigger">+</span> de <span class="font-bigger">10 años</span><br>de <span class="font-bigger">experiencia</span></h1>
+          <p>en mantenimiento de equipos de laboratorio</p>
+          <p style="color: #000;">pero sobretodo dando servicio y atención de auténtico valor.</p>
           <a href="/contact" class="btn">Contactanos</a>
         </div>
       </div>
@@ -44,7 +44,8 @@
   <section class="services-home section text-center">
     <div class="services-home-txt content">
       <h1 class="section-title">Nuestros servicios</h1>
-      <p class="section-subtitle">Brindamos una amplia gama de servicios que apoyan las operciones de una gran cantidad de industrias</p>
+      <p class="section-subtitle">Brindamos una amplia gama de servicios que apoyan las operaciones de una gran cantidad de industrias, entre las cuales se encuentran:</p>
+      <p class="section-subtitle">Laboratorios de investigación, desarrollo, microbiológicos, biotecnológicos, transferencia de tecnología, industriales, aseguramiento de calidad, alimenticios, bebidas, químicos, cosmetológicos, petroleros, pinturas, sector público, médico, privado, clínico, agropecuario.</p>
     </div>
     <div class="grid-services content">
       <div class="item-services" data-aos="flip-left" data-aos-duration="400" >

@@ -6,6 +6,7 @@
               <img class="logo-img" src="<?php echo get_template_directory_uri()?>/img/isotipo.png" alt="Logo">
             </a>      
           </div>
+          <a href="http://www.ingdeser.com/wp-content/uploads/2024/02/Carta-de-presentacion.pdf" target="_blank" class="btn">Presentación Corporativa</a>
         </div>
         <div class="footer-conect">
         <?php

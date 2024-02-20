@@ -164,6 +164,11 @@ img {
   text-align: center;
 }
 
+.overlay-orange {
+  background: rgb(213,96,28);
+  background: linear-gradient(180deg, rgba(213,96,28,1) 0%, rgba(255,255,255,0.04385504201680668) 100%);
+}
+
 .btn-invert {
   color: var(--bg-btn);
   background-color: transparent;
@@ -535,6 +540,17 @@ img {
   padding-top: 2em;
 }
 
+.footer-menu-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-logo {
+  margin-bottom: 15px;
+}
+
 .footer-menu a,
 .footer-conect a,
 .footer-conect p {
@@ -781,11 +797,17 @@ HOME PAGE
 
 .objetive-home-content h1 {
   text-align: left;
+  font-size: 2rem;
+}
+
+.font-bigger {
+  font-size: 3.6rem;
 }
 
 .objetive-home-content p {
   width: 90%;
   text-align: left;
+  font-weight: 600;
 }
 
 .parallax {
