@@ -239,6 +239,10 @@ img {
   display: flex;
 }
 
+.mrg-y {
+  margin: 0.5em auto;
+}
+
 @media (min-width: 768px) {
   .desktop {
     display: flex;
@@ -725,10 +729,6 @@ HOME PAGE
 
 .press-home p {
   font-size: 1.4rem;
-}
-
-.press-home h2 {
-  font-size: 2.4rem;
 }
 
 .first-home-content {
