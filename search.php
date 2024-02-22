@@ -9,11 +9,11 @@ get_header();
 ?>
 
 <section class="">
-  <div class="about-parallax-container parallax" style="background-image: url('https://thenext150.com//wp-content/uploads/2023/10/NXT-team-visitig-yubalcah-scaled.jpg');">
+  <div class="about-parallax-container parallax" style="background-image: url('http://www.ingdeser.com/wp-content/uploads/2024/02/search.jpg');">
       <div class="overlay">
         <div class="content objetive-home-content">
         <form role="search" method="get" class="search-form" action="<?php echo home_url('/'); ?>">
-          <h1 style="margin-bottom: 20px;">Search</h1>
+          <h1 style="margin-bottom: 20px;">Buscar</h1>
           <div class="input-group">
             <input type="search" id="form1" class="form-control rounded" value="<?php echo get_search_query(); ?>" name="s" title="<?php echo esc_attr_x('Search for:', 'h3') ?>" placeholder="<?php echo esc_attr_x('Search …', 'placeholder') ?>" />
             <input type="submit" class="btn btn-outline-warning" value="<?php echo esc_attr_x('Search', 'submit button') ?>" />
