@@ -85,7 +85,7 @@
       <p>¿Mala atención de las empresas de mantenimiento?</p>
 
       <h2 class="orange font-bigger mrg-y">Basta de problemas</h2>
-      <h2>tenemos una propuesta valiosa para tu empresa</h2>
+      <h2>¡Tenemos una propuesta valiosa para tu empresa!</h2>
 
     </div>
   </section>
