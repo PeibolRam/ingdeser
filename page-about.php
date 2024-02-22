@@ -14,7 +14,9 @@
             <h1 style="margin-bottom: 20px;" class="orange">Más allá de un buen servicio</h1>
             <p style="margin-bottom: 5px;">Somos especialistas en mantenimiento, calibración y calificación de equipos de laboratorio.</p>
             <p style="margin-bottom: 5px;">Con una plantilla de expertos con <span class="strong">más de 10 años de experiencia</span> generando excelentes resultados.</p>
-            <p> pero nuestra oferta va más allá de un servicio técnico de excelencial. Le ofrecemos un compromiso de <span class="strong">atención y seguimiento</span> de sus necesidades muy superior al mercado.</p>
+            <p style="margin-bottom: 15px;"> pero nuestra oferta va más allá de un servicio técnico de excelencial. Le ofrecemos un compromiso de <span class="strong">atención y seguimiento</span> de sus necesidades muy superior al mercado.</p>
+            <a href="http://www.ingdeser.com/wp-content/uploads/2024/02/PRESENTACION-INGDESER-2023-1.pdf" target="_blank" class="btn">Carta de presentacion</a>
+
           </div>
         </div>
       </div>

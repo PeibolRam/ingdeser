@@ -826,6 +826,10 @@ HOME PAGE
   font-weight: 600;
 }
 
+.objetive-home-content > .btn {
+  margin-top: 1em;
+}
+
 .parallax {
   width: 100%;
   background-attachment: fixed;
@@ -1690,136 +1694,42 @@ contact PAGE
 
 ******/
 
-.contact-header {
-  width: 100%;
-  position: relative;
-  height: 150px;
-  background-color: var(--blue);
-  margin-bottom: 100px;
-}
-
-.contact-header-content {
-  position: absolute;
-  bottom: -50%;
-  background-color: var(--hover-green);
-  padding: 1em;
-  width: 80%;
-  left: 10%;
-}
-
-.contact-header-content .section-subtitle {
-  color: var(--white);
-}
-
-@media (min-width: 768px) {
-  .contact-header-content {
-    width: 50%;
-  }
-
-  .contact-header {
-    height: 250px;
-  }
-}
-
-.form-container {
+.info-contact {
   display: flex;
-  flex-direction: column;
+  flex-flow: row wrap;
   justify-content: center;
-  margin: 1em auto;
   align-items: center;
+  text-align: center;
 }
 
-.form-content {
-  width: 100%;
-}
-
-.contact-logo {
-  display: none;
-}
-
-.form-content form {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin: 1em auto;
-}
-
-.form-content form input,
-.form-content form textarea {
+.info-contact-item {
+  width: 80%;
   margin: 1em;
-  padding: 1em;
-  border: solid 1px var(--menu-gray);
-}
-
-.form-content .btn {
-  border: none;
-  display: flex;
-  margin: 0 auto;
-  padding: 1em 2em;
-}
-
-
-.other-inquiries {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
 }
 
-.other-inquiries div {
-  margin: 1em 0;
+.info-contact-item h3 {
+  color: var(--orange);
+  font-size: 2rem;
 }
 
-.other-inquiries div a {
-  font-size: 16px;
-  color: var(--black);
-}
-
-.other-inquiries div p {
-  margin: 1em 0;
-}
-
-.newsletter form {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
-
-.newsletter form input {
-  padding: 0.5em 1em;
-  border-radius: 2em;
-  margin: 1em;
-  border: solid 1px var(--menu-gray);
-}
-
-.newsletter .btn {
-  border: none;
-  display: flex;
-  padding: 0.5em 1em;
+.info-contact-item a {
+  font-size: 1.8rem;
+  margin-bottom: 5px;
 }
 
 @media (min-width: 768px) {
-  .other-inquiries {
-    flex-direction: row;
-    justify-content: space-between;
-  }
-
-  .other-inquiries div {
-    width: 30%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
+  .info-contact-item {
+    width: 40%;
   }
 }
 
-.social-contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-}
+/*****
+
+NOT FOUND PAGE
+
+******/
 
 .error-404 {
   background-color: #fff;
