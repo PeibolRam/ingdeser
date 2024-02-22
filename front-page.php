@@ -9,7 +9,7 @@
         <div class="content objetive-home-content">
           <h1><span class="font-bigger">+</span> de <span class="font-bigger">10 años</span><br>de <span class="font-bigger">experiencia</span></h1>
           <p>en mantenimiento de equipos de laboratorio</p>
-          <p style="color: #4A4F55;">pero sobretodo dando servicio y atención de auténtico valor.</p>
+          <p style="color: #4A4F55; margin-bottom: 15px;">pero sobretodo dando servicio y atención de auténtico valor.</p>
           <a href="/contact" class="btn">Contactanos</a>
         </div>
       </div>
