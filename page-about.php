@@ -27,7 +27,7 @@
         <div class="overlay">
           <div class="content objetive-home-content">
             <h1 style="margin-bottom: 20px;" class="orange">Visión</h1>
-            <p style="margin-bottom: 20px;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consectetur tenetur aliquid neque ea deleniti odit minus excepturi numquam atque quaerat in placeat dolorum, similique quod eaque accusantium nisi vitae culpa!</p>
+            <p style="margin-bottom: 20px;">Ser la empresa líder en servicios de laboratorio y proceso, contando con clientes que se encuentren confiados de que sus equipos están en las manos de los mejores ingenieros a nivel nacional, asegurando la recomendación de nuestro servicio integral y compromiso con el cuidado del medio ambiente!</p>
           </div>
         </div>
       </div>
@@ -39,7 +39,7 @@
           <div class="content objetive-home-content text-right">
             <div class="text-left about-mission">
             <h1 style="margin-bottom: 20px;" class="orange">Misión</h1>
-              <p style="margin-bottom: 20px; width: 100%;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa in minima voluptatibus voluptate quae aliquid adipisci quibusdam praesentium necessitatibus vitae distinctio asperiores, quisquam cumque sed veniam perferendis, non possimus odit.</p>
+              <p style="margin-bottom: 20px; width: 100%;">Especialistas en mantenimiento, calibración, calificación y reparación de equipos de laboratorio y proceso, ofreciendo la mejor experiencia en servicio, sustentado en nuestro expertiz profesional, trato, atención íntegra, dando como resultado de ello la confianza de nuestros clientes.</p>
 
             </div>
           </div>
