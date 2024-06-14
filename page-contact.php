@@ -4,7 +4,7 @@
   */
   get_header(); 
 ?>
-<div class="section contact-page" style="padding-top: 150px;">
+<div class="section contact-container" style="padding-top: 150px;">
   <div class="content-mob content">
     <h1><?php the_title(); ?></h1>
   
