@@ -10,12 +10,12 @@
   <?php the_content(); ?>
 
   <div class="info-contact">
-    <div class="info-contact-item">
+   <!-- <div class="info-contact-item">
       <h3>Dto. Ventas</h3>
       <p>Metztli Ortiz Zamorano</p>
       <a href="mailto:ventas@ingdeser.com">ventas@ingdeser.com</a>
       <a href="https://wa.link/ck1dml">5528495694</a>
-    </div>
+    </div>-->
     <div class="info-contact-item">
       <h3>Administración</h3>
       <p>Alexis Martínez Tabla</p>
