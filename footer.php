@@ -20,7 +20,7 @@
         </div>
       </div>
       <div class="footer-cr text-center">
-        <p>© INGDESER. Todos los derechos reservados <?php echo date('Y'); ?></p>
+        <p>© INGDESER Sumando valor. Todos los derechos reservados <?php echo date('Y'); ?></p>
       </div>
     </footer>
 

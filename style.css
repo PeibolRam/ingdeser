@@ -169,8 +169,8 @@ img {
 }
 
 .overlay-orange {
-  background: rgb(213,96,28);
-  background: linear-gradient(180deg, rgba(213,96,28,1) 0%, rgba(255,255,255,0.04385504201680668) 100%);
+  background: rgb(213, 96, 28);
+  background: linear-gradient(180deg, rgba(213, 96, 28, 1) 0%, rgba(255, 255, 255, 0.04385504201680668) 100%);
 }
 
 .btn-invert {
@@ -326,6 +326,12 @@ img {
 
 .custom-logo {
   width: 100px;
+}
+
+@media (min-width: 768px) {
+  .custom-logo {
+    width: 150px;
+  }
 }
 
 .main-menu {
@@ -686,6 +692,7 @@ HOME PAGE
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
 }
 
 .first-home-mob-content {
@@ -729,6 +736,7 @@ HOME PAGE
 
 .press-home p {
   font-size: 1.4rem;
+  margin-bottom: 10px;
 }
 
 .first-home-content {
@@ -813,7 +821,7 @@ HOME PAGE
 
 .objetive-home-content h1 {
   text-align: left;
-  font-size: 2rem;
+  font-size: 3.6rem;
 }
 
 .font-bigger {
@@ -826,7 +834,7 @@ HOME PAGE
   font-weight: 600;
 }
 
-.objetive-home-content > .btn {
+.objetive-home-content>.btn {
   margin-top: 1em;
   width: fit-content;
 }
@@ -969,6 +977,7 @@ HOME PAGE
   background-color: var(--bg-gray-section);
   width: 100%;
   position: relative;
+  padding: 120px 0;
 }
 
 .services-home-txt,
@@ -980,13 +989,10 @@ HOME PAGE
   padding: 2em;
 }
 
-
-
 .wwu-text {
   color: var(--black);
   margin: 1em auto;
 }
-
 
 .wwu-absolute {
   display: none;
@@ -1058,6 +1064,12 @@ contact PAGE
 
 ******/
 
+.contact-container {
+  background: linear-gradient(-45deg, #23a6d5, #ee7752, #23a6d5, #ee7752);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+}
+
 .info-contact {
   display: flex;
   flex-flow: row wrap;
@@ -1074,7 +1086,7 @@ contact PAGE
 }
 
 .info-contact-item h3 {
-  color: var(--orange);
+  color: var(--black);
   font-size: 2rem;
 }
 
@@ -1088,6 +1100,21 @@ contact PAGE
     width: 40%;
   }
 }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
 
 /*****
 
