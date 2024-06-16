@@ -46,16 +46,37 @@
   </section>
 
   <section class="">
-    <div class="about-parallax-container parallax" style="background-image: url('http://www.ingdeser.com/wp-content/uploads/2024/06/testalize-me-ZdToNCVLpOg-unsplash-min-scaled.jpg');">
+    <div class="" style="background-image: url('http://www.ingdeser.com/wp-content/uploads/2024/06/testalize-me-ZdToNCVLpOg-unsplash-min-scaled.jpg');">
         <div class="overlay">
-          <div class="content services-content column-about text-center">
+          <div class="content services-content text-center">
             <h1 style="margin-bottom: 20px;" class="orange">Equipos</h1>
             <div class="services-equipos">
-              <p>Equipos de laboratorio</p>
-              <p>Equipos de proceso</p>
-              <p>Metrologia</p>
-            </div>
+            <?php
+            // Obtener todas las categorías
+            $categories = get_categories(array(
+                'hide_empty' => false, // Mostrar categorías aunque no tengan posts
+            ));
 
+            // Filtrar solo las categorías principales (sin subcategorías) y excluir "Uncategorized"
+            $main_categories = array_filter($categories, function($cat) {
+                return $cat->category_parent == 0 && $cat->slug != 'uncategorized';
+            });
+
+            if (!empty($main_categories)) {
+                foreach ($main_categories as $category) {
+                    ?>
+                    <div class="category-box">
+                        <h2><?php echo esc_html($category->name); ?></h2>
+                        <p><?php echo esc_html($category->description); ?></p>
+                        <a href="<?php echo esc_url(get_category_link($category->term_id)); ?>" class="category-link">Ver más</a>
+                    </div>
+                    <?php
+                }
+            } else {
+                echo '<p>No hay categorías disponibles.</p>';
+            }
+            ?>
+            </div>
           </div>
         </div>
       </div>
