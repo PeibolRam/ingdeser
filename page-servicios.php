@@ -45,5 +45,21 @@
     </div>
   </section>
 
+  <section class="">
+    <div class="about-parallax-container parallax" style="background-image: url('http://www.ingdeser.com/wp-content/uploads/2024/06/testalize-me-ZdToNCVLpOg-unsplash-min-scaled.jpg');">
+        <div class="overlay">
+          <div class="content services-content column-about text-center">
+            <h1 style="margin-bottom: 20px;" class="orange">Equipos</h1>
+            <div class="services-equipos">
+              <p>Equipos de laboratorio</p>
+              <p>Equipos de proceso</p>
+              <p>Metrologia</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+  </section>
+
 
 <?php get_footer(); ?>

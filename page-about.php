@@ -7,7 +7,7 @@
 
 <?php the_content(); ?>
 
-<section class="">
+  <section class="">
     <div class="about-parallax-container parallax" style="background-image: url('http://www.ingdeser.com/wp-content/uploads/2024/02/about-scaled.jpg');">
         <div class="overlay">
           <div class="content objetive-home-content column-about">
