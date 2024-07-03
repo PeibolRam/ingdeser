@@ -1511,3 +1511,7 @@ services PAGE
 .category-link:hover {
   background-color: #005177;
 }
+
+.post-category-content {
+  margin: 2em auto;
+}
